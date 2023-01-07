@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  border: 1px solid transparent;
+}
+
+.header {
+  color: white;
+  padding: 10px;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.form {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add > button {
+  background-color: rgb(146, 67, 249);
+  width: 110px;
+  padding: 5px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.add > button:hover {
+  cursor: pointer;
+}
+
+.add {
+  padding: 12.5px;
+  margin-bottom: 15px;
+}
+
+.filter > button {
+  width: 110px;
+  border-radius: 15px;
+  padding: 2.5px 15px;
+  font-weight: 400;
+  border: 1px solid black;
+  margin-right: 5px;
+}
+
+.filter-active {
+  background-color: black;
+  color: white;
+}
+
+.filter-unactive {
+  background-color: white;
+  color: black;
+}
+
+.filter {
+  padding: 12.5px;
+}
+
+.tasks {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 15px;
+  overflow: scroll;
+}
+
+.todo-item {
+  width: 625px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.todo-item > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.todo-buttons {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-buttons > button {
+  width: 60px;
+  padding: 1px;
+}
+
+#grey {
+  background-color: darkgray;
+  color: white;
+}
+
+#red {
+  background-color: red;
+  color: white;
+}
+
+.title:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.description-div {
+  font-weight: 300;
+  width: 500px;
+  height: 25px;
+  margin-top: 2.5px;
+  margin-left: 23px;
+  margin-bottom: 10px;
+}
+
+.add-div {
+  height: fit-content;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12.5px;
+}
+
+.title-input {
+  width: 67%;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+}
+
+.description-input {
+  width: 350px;
+  height: 120px;
+  padding: 10px 5px;
+  font-size: 18px;
+  max-height: 120px;
+  padding: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+#add-btn {
+  padding-left: 0px;
+  padding-bottom: 2.5px;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.message {
+  width: 450px;
+  margin: 25px auto;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(146, 67, 249);
+  font-weight: bolder;
+}
